@@ -13,6 +13,17 @@ function App() {
         </a>
       </div>
       <h1>Tohir78 Game Online, Slot, dan Lotto Terpopuler 2025</h1>
+      
+      {/* Tombol Daftar dan Login */}
+      <div className="auth-buttons">
+        <a href="https://snapylink.xyz/daftartohir78" target="_blank">
+          <button className="daftar-button">Daftar</button>
+        </a>
+        <a href="https://snapylink.xyz/daftartohir78" target="_blank">
+          <button className="login-button">Login</button>
+        </a>
+      </div>
+      
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
