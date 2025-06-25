@@ -33,6 +33,42 @@
   }
 }
 
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.daftar-button,
+.login-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.daftar-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.daftar-button:hover {
+  background-color: #218838;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
 .card {
   padding: 2em;
 }
