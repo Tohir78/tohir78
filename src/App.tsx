@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import tohir78Logo from '/Logo-Tohir78-96px.png'
+import tohir78Logo from '/Logo-Tohir78-512px.webp'
 import './App.css'
 
 function App() {
